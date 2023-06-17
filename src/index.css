@@ -9,9 +9,19 @@
 }
   
 [data-theme="dark"] {
-  --body_background: #282c34;
-  --body_color: #fff;
+  --body_background: #1E293B;
+  --body_color: #fff !important;
+  --header-background:  #0F172A;
+  --footer-background:  #0F172A;
 }
+
+[data-theme="light"] {
+  --body_background: #fff;
+  --body_color: #000 !important;
+  --header-background: #1E3A8A;
+  --footer-background: #1E3A8A;
+}
+  
   
 a {
   display: block;
@@ -26,9 +36,4 @@ span {
   margin: 0 auto;
   max-width: 1440px;
   width: 100%;
-}
-
-:root {
-  --body_background: #fff;
-  --body_color: #000;
 }

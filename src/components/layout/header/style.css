@@ -1,5 +1,5 @@
 .header-wrap {
-    background: #1E3A8A;
+    background: var(--header-background);
     height: 90px;
 }
 
@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     padding: 25px 0;
+    justify-content: space-between;
 }
 
 .header-block-logo {
