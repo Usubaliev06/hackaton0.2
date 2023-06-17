@@ -5,15 +5,14 @@ const Login = () => {
   return (
     <div className="container">
       <h1 className="login-header">
-        Портал получения пособий
-      </h1>
-      <h2 className="login-subheader">
         Введите ваш ИНН и вставьте флешку из ЦОНа
-      </h2>
+      </h1>
       <div className="login-form-block">
         <p className="login-form-header">ИНН</p>
         <input type="text" placeholder="1234567890123" className="login-form-field" />
         <p className="login-form-subheader">Не удалось найти этот ИНН</p>
+        <button className="login-form-button">Войти</button>
+        <a href="" className="login-form-link">Не удается войти?</a>
       </div>
     </div>
   );
