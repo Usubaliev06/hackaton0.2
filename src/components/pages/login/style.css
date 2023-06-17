@@ -1,0 +1,17 @@
+.login-header {
+    padding-top: 62px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1E293B;
+    text-align: center;
+}
+
+.login-subheader {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E293B;
+    text-align: center;
+}
