@@ -1,27 +1,69 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
+import { useSelector, useDispatch } from "react-redux";
+import { getData } from "../../../store/dataSlise";
+// import { useParams } from "react-router-dom";
 
 const Login = () => {
+  const data = useSelector((state) => state.data.data);
+  const { status } = useSelector((state) => state.data.userData);
+  const dispatch = useDispatch();
+
   const [inn, setInn] = useState("");
   const [innText, setInnText] = useState("login-form-header");
   const [errorText, setErrorText] = useState("login-form-subheader");
   const [input, setInput] = useState("login-form-field");
 
-  const inputChange =(e)=>{
-    setInn(e.target.value)
+  // useEffect(() => {
+  //   if (!status) {
+  //   getData("adil")
+  //   }
+
+  //   if (status === "rejected") {
+  //     setStaffError(css.dataError);
+  //     setStaffCards(css.stafCardsNone);
+  //   }
+  // }, [status]);
+
+  // const params = useParams();
+  // const prodId = params.inn;
+  // console.log(prodId);
+
+  const inputChange = (e) => {
+    setInn(e.target.value);
     setInnText("login-form-header");
     setErrorText("login-form-subheader");
     setInput("login-form-field");
-  }
+  };
+
+  const getUser =  () => {
+    dispatch(getData(inn));
+    console.log(data);
+    
+    console.log(status);
+    if (data === null) {
+      // getUser();
+      console.log('error')
+    } else if (data === "Entity User whit ID: '11004199001231' is not found.") {
+      setInnText("login-header-error");
+      setErrorText("text-error");
+      setInput("form-error");
+    } else {
+      window.location.assign(`/main/${inn}`);
+    }
+  };
+
 
   const validation = () => {
     if (inn.length < 14 || inn.length > 14) {
       setInnText("login-header-error");
       setErrorText("text-error");
       setInput("form-error");
-    } 
+    } else {
+      getUser()
+    }
   };
-
+  // console.log(data.fullName);
   return (
     <div className="container">
       <h1 className="login-header">
