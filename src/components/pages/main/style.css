@@ -164,3 +164,80 @@
 .main-btn-application:hover {
     background: #1E3A8A;
 }
+
+@media (max-width:320px) {
+    .main-user-wrap {
+        padding: 10px;
+    }
+
+    .main-user-block {
+        flex-direction: column;
+    }
+
+    .main-user-photo {
+        margin: 60px auto 0;
+        width: 66px;
+        height: 66px;
+    }
+    
+    .main-user-info {
+        padding: 0;
+    }
+
+    .main-user-info-name {
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .main-user-info-addres, .main-user-info-age, .main-user-info-health {
+        margin-top: 7px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .main-privileges-header {
+        padding-top: 35px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .main-housing-benefits-block {
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+    .main-housing-benefits-header {
+        font-size: 16px;
+        line-height: 21px;
+        margin-top: 20px;
+    }
+
+    .main-housing-benefits-text {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .main-btn-block {
+        flex-direction: column;
+    }
+
+    .main-btn-more {
+        background: #F1F5F9;
+        width: 300px;
+        border: 1px solid #94A3B8;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main-btn-application {
+        margin-top: 10px;
+        text-align: center;
+        width: 300px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
