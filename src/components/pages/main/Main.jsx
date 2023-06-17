@@ -40,7 +40,7 @@ const Main = () => {
                 </span>
               </div>
               <div className="main-btn-block">
-                <a className="main-btn-more">Подробнее</a>
+                <a href="/detail" className="main-btn-more">Подробнее</a>
               </div>
             </div>
           </div>
@@ -57,8 +57,8 @@ const Main = () => {
                 </span>
               </div>
               <div className="main-btn-block">
-                <a className="main-btn-more">Подробнее</a>
-                <a className="main-btn-application">Подать заявление на получение</a>
+                <a href="/detail" className="main-btn-more">Подробнее</a>
+                <a href="/form" className="main-btn-application">Подать заявление на получение</a>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@ const Main = () => {
                 </span>
               </div>
               <div className="main-btn-block">
-                <a className="main-btn-more">Подробнее</a>
+                <a href="/detail" className="main-btn-more">Подробнее</a>
               </div>
             </div>
           </div>
@@ -91,8 +91,8 @@ const Main = () => {
                 </span>
               </div>
               <div className="main-btn-block">
-                <a className="main-btn-more">Подробнее</a>
-                <a className="main-btn-application">Подать заявление на получение</a>
+                <a href="/detail" className="main-btn-more">Подробнее</a>
+                <a href="/form" className="main-btn-application">Подать заявление на получение</a>
               </div>
             </div>
           </div>

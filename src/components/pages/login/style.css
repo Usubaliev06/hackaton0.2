@@ -6,11 +6,16 @@
     color: #1E293B;
     text-align: center;
 }
+
 .login-header-error {
     font-weight: 400;
     font-size: 12px;
     line-height: 13px;
     color: #EF4444;
+}
+
+.header-height {
+    height: 75.5vh;
 }
 
 
@@ -82,9 +87,16 @@
     color: #FFFFFF;
     margin-top: 26px;
     background: #1E40AF;
+    border: none;
     border-radius: 10px;
     width: 350px;
     padding: 11px;
+    transition: 0.2s ease-in-out;
+}
+
+.login-form-button:hover {
+    scale: 1.05;
+    transition: 0.2s ease-in-out;
 }
 
 .login-form-link {
