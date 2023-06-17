@@ -6,6 +6,13 @@
     color: #1E293B;
     text-align: center;
 }
+.login-header-error {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #EF4444;
+}
+
 
 .login-form-block {
     margin: 0 auto;
@@ -46,12 +53,22 @@
 }
 
 .form-error {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 13px 20px;
+    width: 350px;
     color: #EF4444;
     background: #FCA5A5;
 }
 
 .text-error {
     color: #EF4444;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .login-form-field::placeholder {
