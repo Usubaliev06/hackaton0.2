@@ -11,8 +11,9 @@ const Login = () => {
         Введите ваш ИНН и вставьте флешку из ЦОНа
       </h2>
       <div className="login-form-block">
-        <label for="email">ИНН</label>
-        <input type="text" placeholder="1234567890123" name="email" />
+        <p className="login-form-header">ИНН</p>
+        <input type="text" placeholder="1234567890123" className="login-form-field" />
+        <p className="login-form-subheader">Не удалось найти этот ИНН</p>
       </div>
     </div>
   );
