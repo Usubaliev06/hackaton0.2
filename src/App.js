@@ -16,8 +16,8 @@ import './App.css'
 function App() {
   return (
     <div>
-      <BrowserRouter >
       <DarkMode />
+      <BrowserRouter >
         <Routes>
           <Route path='/' element={<Loyaut />}>
             <Route index element={<Main/>} />
