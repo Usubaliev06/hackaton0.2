@@ -142,6 +142,11 @@
     background: #FFFFFF;
     border: 1px solid #94A3B8;
     border-radius: 10px;
+    vertical-align: middle;
+}
+
+.main-btn-more:hover {
+    background: #94A3B8;
 }
 
 .main-btn-application {
@@ -153,4 +158,9 @@
     font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.main-btn-application:hover {
+    background: #1E3A8A;
 }

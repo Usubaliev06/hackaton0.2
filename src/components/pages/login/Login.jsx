@@ -23,7 +23,7 @@ const Login = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container header-height">
       <h1 className="login-header">
         Введите ваш ИНН и вставьте флешку из ЦОНа
       </h1>
