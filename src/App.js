@@ -8,7 +8,7 @@ import Main from './components/pages/main/Main';
 import Form from './components/pages/form/Form';
 import Login from './components/pages/login/Login';
 import NotFound from './components/pages/notFound/notFound';
-import DarkMode from './components/DarkMode/DarkMode'
+
 import './App.css'
 
 
@@ -16,7 +16,6 @@ import './App.css'
 function App() {
   return (
     <div>
-      <DarkMode />
       <BrowserRouter >
         <Routes>
           <Route path='/' element={<Loyaut />}>

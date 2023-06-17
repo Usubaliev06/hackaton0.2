@@ -1,5 +1,5 @@
 .footer-wrap {
-    background: #1E3A8A;
+    background: var(--footer-background);
     padding: 20px 0 32px;
 }
 
