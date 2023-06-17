@@ -20,8 +20,8 @@ function App() {
       <BrowserRouter >
         <Routes>
           <Route path='/' element={<Loyaut />}>
-            <Route index element={<Main/>} />
-            <Route path='login' element={<Login/>} />
+            <Route index element={<Login/>} />
+            <Route path='main' element={<Main/>} />
             <Route path='form' element={<Form/>} />
             <Route path='*' element={<NotFound />} />
           </Route>
