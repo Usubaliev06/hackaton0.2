@@ -19,6 +19,7 @@
 .login-form-block {
     margin: 0 auto;
     width: 350px;
+    margin-top: 44px;
 }
 
 .login-form-header-block {
@@ -64,4 +65,26 @@
 
 .login-form-field::placeholder {
     color: #475569;
+}
+
+.login-form-button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 26px;
+    background: #1E40AF;
+    border-radius: 10px;
+    width: 350px;
+    padding: 11px;
+}
+
+.login-form-link {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #4F46E5;
 }
