@@ -1,0 +1,94 @@
+.form-wrap {
+}
+
+.form-info-block {
+
+}
+
+.form-card-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-header {
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1E293B;
+}
+
+.form-subheader {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E293B;
+}
+
+.form-card-wrap {
+    display: flex;
+    margin: 30px;
+    width: 540px;
+    height: 160px;
+    border: 1px solid #F8FAFC;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.form-card-info-wrap {
+    width: 445px;
+}
+
+.form-card-icon-access {
+    margin: 20px;
+    background: url(../../../visual/icons/acces.svg) center center/contain no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.form-card-icon-denied {
+    margin: 20px;
+    background: url(../../../visual/icons/denied.svg) center center/contain no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.form-card-info-subheader-access {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1E293B;
+}
+
+.form-card-info-subheader-denied {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1E293B;
+}
+
+
+.form-card-info-header {
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1E293B;
+}
+
+.form-card-info-time {
+    padding-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E293B;
+}
+
+.form-card-info-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #1E40AF;
+}
