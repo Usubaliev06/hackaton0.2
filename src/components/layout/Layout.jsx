@@ -3,7 +3,7 @@ import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import {Outlet} from 'react-router-dom'
 
-const Loyaut = () => {
+const Layout = () => {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ const Loyaut = () => {
   );
 };
 
-export default Loyaut;
+export default Layout;
