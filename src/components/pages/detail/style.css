@@ -12,8 +12,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    color: #1E293B;
-    background: #FFFFFF;
+    color: var(--body_color);
+    background: var(--body_background);
     border: 1px solid #94A3B8;
     border-radius: 10px;
 }
@@ -23,6 +23,7 @@
     width: 6px;
     height: 10px;
     margin-right: 10px;
+    background-color: var(--body_background);
 }
 
 .btn-back:hover {
@@ -34,7 +35,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #1E293B;
+    color: var(--body_color);
 }
 
 .detail-subheader {
@@ -42,7 +43,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
-    color: #334155;
+    color: var(--body_color);
 }
 
 .detail-text {
@@ -50,36 +51,5 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    color: #1E293B;
-}
-
-@media (max-width:320px) {
-    .detail-wrap {
-        padding: 17px 10px;
-        height: 100%;
-    }  
-    
-    .btn-back {
-        margin-top: 10px;
-        font-size: 16px;
-        line-height: 21px;
-        width: 300px;
-    }
-
-    .detail-header {
-        font-size: 24px;
-        line-height: 31px;
-    }
-
-    .detail-subheader {
-        padding-top: 15px;
-        font-size: 14px;
-        line-height: 18px;
-    }
-
-    .detail-text {
-        padding: 15px 0 60px;
-        font-size: 12px;
-        line-height: 16px;
-    }
+    color: var(--body_color);
 }
