@@ -3,14 +3,19 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #1E293B;
+    /* color: #1E293B; */
     text-align: center;
 }
+
 .login-header-error {
     font-weight: 400;
     font-size: 12px;
     line-height: 13px;
     color: #EF4444;
+}
+
+.header-height {
+    height: 75.5vh;
 }
 
 
@@ -82,9 +87,16 @@
     color: #FFFFFF;
     margin-top: 26px;
     background: #1E40AF;
+    border: none;
     border-radius: 10px;
     width: 350px;
     padding: 11px;
+    transition: 0.2s ease-in-out;
+}
+
+.login-form-button:hover {
+    scale: 1.05;
+    transition: 0.2s ease-in-out;
 }
 
 .login-form-link {
@@ -95,4 +107,43 @@
     line-height: 18px;
     text-decoration-line: underline;
     color: #4F46E5;
+}
+
+
+@media (max-width:320px) {
+
+    .header-height {
+        height: 100%;
+        padding: 0 10px;
+    }
+
+    .login-header {
+        padding-top: 10px;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        color: #1E293B;
+        width: 292px;
+    }
+
+    .login-form-block {
+        width: 300px;
+        margin-top: 12px;
+    }
+
+    .login-form-field {
+        width: 300px;
+    }
+
+    .form-error {
+        width: 300px;
+    }
+
+    .login-form-button {
+        width: 300px;
+    }
+
+    .login-form-link {
+        margin-bottom: 22px;
+    }
 }

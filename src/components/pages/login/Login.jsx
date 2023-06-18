@@ -14,21 +14,6 @@ const Login = () => {
   const [errorText, setErrorText] = useState("login-form-subheader");
   const [input, setInput] = useState("login-form-field");
 
-  // useEffect(() => {
-  //   if (!status) {
-  //   getData("adil")
-  //   }
-
-  //   if (status === "rejected") {
-  //     setStaffError(css.dataError);
-  //     setStaffCards(css.stafCardsNone);
-  //   }
-  // }, [status]);
-
-  // const params = useParams();
-  // const prodId = params.inn;
-  // console.log(prodId);
-
   const inputChange = (e) => {
     setInn(e.target.value);
     setInnText("login-form-header");
@@ -36,14 +21,13 @@ const Login = () => {
     setInput("login-form-field");
   };
 
-  const getUser =  () => {
+  const getUser = () => {
     dispatch(getData(inn));
     console.log(data);
-    
     console.log(status);
     if (data === null) {
       // getUser();
-      console.log('error')
+      console.log("error");
     } else if (data === "Entity User whit ID: '11004199001231' is not found.") {
       setInnText("login-header-error");
       setErrorText("text-error");
@@ -53,19 +37,21 @@ const Login = () => {
     }
   };
 
-
   const validation = () => {
-    if (inn.length < 14 || inn.length > 14) {
+    const isOnlyLetters = /^[A-Za-z]+$/.test(inn);
+    const isValidLength = inn.length === 14;
+  
+    if (isOnlyLetters || !isValidLength) {
       setInnText("login-header-error");
       setErrorText("text-error");
       setInput("form-error");
     } else {
-      getUser()
+      getUser();
     }
   };
   // console.log(data.fullName);
   return (
-    <div className="container">
+    <div className="container header-height">
       <h1 className="login-header">
         Введите ваш ИНН и вставьте флешку из ЦОНа
       </h1>

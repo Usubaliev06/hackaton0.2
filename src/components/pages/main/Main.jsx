@@ -17,6 +17,9 @@ const Main = () => {
     console.log(data);
     // console.log(params.inn);
   }, [params.inn]);
+  const form = () => {
+    window.location.assign(`/form/`);
+  };
 
   const one = [];
   const two = [];
@@ -38,13 +41,10 @@ const Main = () => {
     <div className="container">
       <div className="main-user-wrap">
         <div className="main-user-block">
-        
-          <img  className="main-user-photo" src={data?.imageUrl} alt="" />
+          <img className="main-user-photo" src={data?.imageUrl} alt="" />
           <div className="main-user-info">
             <h2 className="main-user-info-name">{data?.fullName}</h2>
-            <p className="main-user-info-addres">
-            {data?.address}
-            </p>
+            <p className="main-user-info-addres">{data?.address}</p>
             <p className="main-user-info-age">{data?.birthDate}</p>
             <p className="main-user-info-health">
               Пенсионер по старости, инвалид 1 группы по здоровью
@@ -70,8 +70,10 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
-                      <a className="main-btn-application">
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
+                      <a onClick={form} className="main-btn-application">
                         Подать заявление на получение
                       </a>
                     </div>
@@ -89,7 +91,9 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -105,8 +109,10 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
-                      <a className="main-btn-application">
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
+                      <a onClick={form} className="main-btn-application">
                         Подать заявление на получение
                       </a>
                     </div>
@@ -124,7 +130,9 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -147,8 +155,10 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
-                      <a className="main-btn-application">
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
+                      <a onClick={form} className="main-btn-application">
                         Подать заявление на получение
                       </a>
                     </div>
@@ -166,7 +176,9 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -182,8 +194,10 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
-                      <a className="main-btn-application">
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
+                      <a onClick={form} className="main-btn-application">
                         Подать заявление на получение
                       </a>
                     </div>
@@ -201,7 +215,9 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -224,8 +240,10 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
-                      <a className="main-btn-application">
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
+                      <a onClick={form} className="main-btn-application">
                         Подать заявление на получение
                       </a>
                     </div>
@@ -243,7 +261,9 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -259,8 +279,10 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
-                      <a className="main-btn-application">
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
+                      <a onClick={form} className="main-btn-application">
                         Подать заявление на получение
                       </a>
                     </div>
@@ -278,7 +300,9 @@ const Main = () => {
                       </span>
                     </div>
                     <div className="main-btn-block">
-                      <a className="main-btn-more">Подробнее</a>
+                      <a href="/detail" className="main-btn-more">
+                        Подробнее
+                      </a>
                     </div>
                   </div>
                 </div>
