@@ -5,7 +5,7 @@ const Detail = () => {
   return (
     <div className="container">
         <div className="detail-wrap">
-            <a href="/main" className="btn-back">
+            <a href="/" className="btn-back">
                 <span className="btn-back-icon"></span> Назад</a>
             <h2 className="detail-header">
                 Пенсия по старости
