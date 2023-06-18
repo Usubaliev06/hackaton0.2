@@ -20,28 +20,28 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #1E293B;
+    color: var(--body_color);
 }
 
 .main-user-info-addres {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: #334155;
+    color: var(--body_color);
 }
 
 .main-user-info-age {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: #334155;
+    color: var(--body_color);
 }
 
 .main-user-info-health {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: #334155;
+    color: var(--body_color);
 }
 
 .main-privileges-wrap {
@@ -52,7 +52,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 31px;
-    color: #1E293B;
+    color: var(--body_color);
 }
 
 .main-housing-benefits-wrap {
@@ -74,14 +74,14 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
-    color: #1E293B;
+    color: var(--body_color);
 }
 
 .main-housing-benefits-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: #334155;
+    color: var(--body_color);
 }
 
 .main-info-complite {

@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 * {
-  transition: all 0.1s ease-in-out;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
+}
+
+[data-theme="light"] {
+  --body_background: #fff;
+  --body_color: #000 !important;
+  --header-background: #1E3A8A;
+  --footer-background: #1E3A8A;
 }
   
 [data-theme="dark"] {
@@ -15,12 +21,7 @@
   --footer-background:  #0F172A;
 }
 
-[data-theme="light"] {
-  --body_background: #fff;
-  --body_color: #000 !important;
-  --header-background: #1E3A8A;
-  --footer-background: #1E3A8A;
-}
+
   
   
 a {
