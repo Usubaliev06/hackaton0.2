@@ -3,22 +3,26 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #1E293B;
+    /* color: #1E293B; */
     text-align: center;
 }
 
-.login-subheader {
-    padding-top: 15px;
+.login-header-error {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
-    color: #1E293B;
-    text-align: center;
+    font-size: 12px;
+    line-height: 13px;
+    color: #EF4444;
 }
+
+.header-height {
+    height: 75.5vh;
+}
+
 
 .login-form-block {
     margin: 0 auto;
     width: 350px;
+    margin-top: 44px;
 }
 
 .login-form-header-block {
@@ -28,7 +32,7 @@
 
 .login-form-header {
     font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 13px;
     color: #64748B;
 }
@@ -54,14 +58,92 @@
 }
 
 .form-error {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 13px 20px;
+    width: 350px;
     color: #EF4444;
     background: #FCA5A5;
 }
 
 .text-error {
     color: #EF4444;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .login-form-field::placeholder {
     color: #475569;
+}
+
+.login-form-button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 26px;
+    background: #1E40AF;
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+    padding: 11px;
+    transition: 0.2s ease-in-out;
+}
+
+.login-form-button:hover {
+    scale: 1.05;
+    transition: 0.2s ease-in-out;
+}
+
+.login-form-link {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #4F46E5;
+}
+
+
+@media (max-width:320px) {
+
+    .header-height {
+        height: 100%;
+        padding: 0 10px;
+    }
+
+    .login-header {
+        padding-top: 10px;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        color: #1E293B;
+        width: 292px;
+    }
+
+    .login-form-block {
+        width: 300px;
+        margin-top: 12px;
+    }
+
+    .login-form-field {
+        width: 300px;
+    }
+
+    .form-error {
+        width: 300px;
+    }
+
+    .login-form-button {
+        width: 300px;
+    }
+
+    .login-form-link {
+        margin-bottom: 22px;
+    }
 }

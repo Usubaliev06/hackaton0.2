@@ -1,0 +1,242 @@
+.main-user-wrap {
+  padding: 40px 0;
+}
+
+.main-user-block {
+  display: flex;
+}
+
+.main-user-photo {
+  width: 133px;
+  height: 133px;
+}
+
+.main-user-info {
+  padding-left: 43px;
+}
+
+.main-user-info-name {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1e293b;
+}
+
+.main-user-info-addres {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #334155;
+}
+
+.main-user-info-age {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #334155;
+}
+
+.main-user-info-health {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #334155;
+}
+
+.main-privileges-wrap {
+  margin-top: 40px;
+}
+
+.main-privileges-header {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1e293b;
+}
+
+.main-housing-benefits-wrap {
+  margin-top: 33px;
+}
+
+.main-housing-benefits-block {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-btn-block {
+  display: flex;
+}
+
+.main-housing-benefits-header {
+  margin-top: 33px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1e293b;
+}
+
+.main-housing-benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #334155;
+}
+
+.main-info-complite {
+  margin-top: 5px;
+  text-align: left;
+  padding: 5px 10px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #ffffff;
+  background: #93c5fd;
+  border-radius: 10px;
+  width: 135px;
+}
+
+.main-info-try {
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #ffffff;
+  background: #22c55e;
+  border-radius: 10px;
+  width: 166px;
+}
+
+.main-info-pending {
+  padding: 5px 10px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #ffffff;
+  background: #f59e0b;
+  border-radius: 10px;
+  width: 170px;
+}
+
+.main-info-broken {
+  padding: 5px 10px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #ffffff;
+  width: 140px;
+  background: #dc2626;
+  border-radius: 10px;
+}
+
+.main-btn-more {
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E293B;
+    background: #FFFFFF;
+    border: 1px solid #94A3B8;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.main-btn-more:hover {
+    background: #94A3B8;
+}
+
+.main-btn-application {
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #1E40AF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.main-btn-application:hover {
+    background: #1E3A8A;
+}
+
+@media (max-width:320px) {
+    .main-user-wrap {
+        padding: 10px;
+    }
+
+    .main-user-block {
+        flex-direction: column;
+    }
+
+    .main-user-photo {
+        margin: 60px auto 0;
+        width: 66px;
+        height: 66px;
+    }
+    
+    .main-user-info {
+        padding: 0;
+    }
+
+    .main-user-info-name {
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .main-user-info-addres, .main-user-info-age, .main-user-info-health {
+        margin-top: 7px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .main-privileges-header {
+        padding-top: 35px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .main-housing-benefits-block {
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+    .main-housing-benefits-header {
+        font-size: 16px;
+        line-height: 21px;
+        margin-top: 20px;
+    }
+
+    .main-housing-benefits-text {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .main-btn-block {
+        flex-direction: column;
+    }
+
+    .main-btn-more {
+        background: #F1F5F9;
+        width: 300px;
+        border: 1px solid #94A3B8;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main-btn-application {
+        margin-top: 10px;
+        text-align: center;
+        width: 300px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
