@@ -129,7 +129,7 @@
 }
 
 .access-wrap {
-    display: none;
+    display: block;
     padding: 210px 370px;
     margin: 0 auto;
     position: absolute;
